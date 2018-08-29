@@ -151,3 +151,8 @@ footer{
 	justify-content:center;
 	padding:20px 0;
 }
+@media only screen and (min-width: 600px) {
+  .container .content div {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
